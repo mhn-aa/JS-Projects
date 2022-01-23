@@ -97,4 +97,56 @@ alert(person.name + "is" + person.age);
 
 
 
-//
+// use the length property to alret the lenght of txt.
+let txt = "Hello World!";
+let x = txt.length;
+alert(x);
+
+// use escape characters to alret we are "Vikings"
+let txt = "We are \"Vikings\"";
+alert (txt);
+
+
+// concatenate the two strings to laret "Hello World!"
+let str1 = "Hello";
+let str2 = "World!";
+alert(str1 + str2)
+
+// Convert the text into an UPPERCASE test:
+let txt = "Hello World!";
+txt = txt.toUpperCase();
+
+// Use the slice method to return the word "bananas".
+
+let txt = "I can eat bananas all day";
+let x = txt.slice(10,17) // ???
+
+
+// use the correct string method to replace the word "Hello" with the word "welcome"
+
+let txt = "Hello World";
+txt = txt.replace("Hello" , "Welcome");
+
+// Convert the value of txt to upper case
+
+let txt = "Hello World";
+txt = txt.toUpperCase();
+
+
+// Convert the value of txt to lower case
+let txt = "Hello World";
+txt = txt.toLowerCase();
+
+
+
+// get the value "Volvo" from the cars array.
+
+const cars = ["Saab", "Volvo", "BMW"];
+let x = cars[1];
+
+// change the first item of cars to "Ford"
+const cars = ["Volvo", "Jeep", "Mercedes"];
+cars[0] = "Ford";
+
+
+
